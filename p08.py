@@ -1,7 +1,6 @@
 import numpy as np
 import nnfs
 from nnfs.datasets import spiral_data
-import math
 nnfs.init()
 
 X, y = spiral_data(100,3)
